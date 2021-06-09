@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/test"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	tools:context=".MainActivity">
+	
+	<Button
+		android:id="@+id/buttonParseFastJson"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Short json - FastJson"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonParseGson"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Short json - gson"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonParseJackson"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Short json - jackson"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonParseMoshi"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Short json - moshi"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonParseKotlinSerialization"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="Short json - kotlin serialization"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonBigParseFastJson"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="parse big json - FastJson"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonBigParseGson"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="parse big json - Gson"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonBigParseJackson"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="parse big json - Jackson"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonBigParseMoshi"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="parse big json - Moshi"
+		tools:ignore="HardcodedText" />
+	
+	<Button
+		android:id="@+id/buttonBigParseKotlinSerialization"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:text="parse big json - Kotlin Serialization"
+		tools:ignore="HardcodedText" />
+	
+</LinearLayout>
